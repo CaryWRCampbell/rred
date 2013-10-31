@@ -41,15 +41,11 @@ end
 # Fix for sass-rails dependency on railties 4.0.1.rc3 discovered at:
 # http://qiita.com/Wmrfreew/items/80b4355868461a5b3e34
 # (N.B. It's in Japanese!)
-# and for a problem with 'git push heroku master':
-# http://stackoverflow.com/questions/11444998/rake-assetsprecompile-aborting-cant-push-to-heroku
 gem 'therubyracer' 
 gem 'sprockets-rails', :git => 'https://github.com/rails/sprockets-rails.git'
 gem 'sass-rails',   '~> 4.0.0', :git => 'https://github.com/rails/sass-rails.git'
 gem 'coffee-rails', '~> 4.0.0', :git => 'https://github.com/rails/coffee-rails.git'
 gem 'uglifier', '2.1.1'
-#gem 'sass-rails', '4.0.0'
-#gem 'coffee-rails', '4.0.0'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
